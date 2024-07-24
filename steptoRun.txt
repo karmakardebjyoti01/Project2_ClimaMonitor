@@ -1,0 +1,20 @@
+Steps to Run the Code
+Connect the DHT11 sensor to the Arduino Uno:
+
+VCC to 5V
+GND to GND
+Data pin to digital pin 2 (you can change this in the code if you use a different pin)
+Install the DHT library:
+
+Open the Arduino IDE
+Go to Sketch > Include Library > Manage Libraries...
+Search for "DHT sensor library" by Adafruit and install it
+Upload the code:
+
+Copy the code above into a new Arduino sketch
+Upload the sketch to your Arduino Uno
+Open the Serial Monitor:
+
+Go to Tools > Serial Monitor in the Arduino IDE
+Set the baud rate to 9600
+You should see the temperature and humidity readings from the DHT11 sensor displayed on the Serial Monitor. If there are any errors, they will also be displayed.
